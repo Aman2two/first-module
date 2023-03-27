@@ -2,6 +2,16 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
 
+class MyClass extends StatelessWidget{
+  const MyClass({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Text("Dummy Text");
+  }
+
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
